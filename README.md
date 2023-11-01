@@ -2,7 +2,7 @@
 
 ## Supplemental Video
 
-https://github.com/facebookresearch/SoundingBodies/assets/17986358/346877f8-5a7b-4867-98ee-524636b32398
+https://github.com/facebookresearch/SoundingBodies/assets/17986358/1213c073-d096-42d0-9a38-ac8ba68d01f2
 
 ## Data and Code
 DATA AND CODE WILL BE AVAILABE BY THE TIME OF THE CONFERENCE (DECEMBER 10 2023)
