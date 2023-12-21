@@ -16,7 +16,7 @@ or use `sync` to avoid transferring existing files:
 ```
 aws s3 sync --no-sign-request s3://fb-baas-f32eacb9-8abb-11eb-b2b8-4857dd089e15/SoundingBodies/ SoundingBodies/
 ```
-The dataset takes around 825GB of space. If necessary, in `configs/config_main.py` adjust `data_dir` and `mic_loc_file` to point to your download location. 
+The dataset takes around 680GB of space. If necessary, in `configs/config_main.py` adjust `data_dir` and `mic_loc_file` to point to your download location. 
 
 NOTE: We were not able to include data from subject8 in the published dataset and we needed to remove speech data for subject7 as well. This brings the total capture time from 4.4 hours to 3.6 hours. We will provide pretrained models and updated evaluation numbers for the published dataset by end of the year.
 
