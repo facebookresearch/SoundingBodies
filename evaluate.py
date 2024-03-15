@@ -67,7 +67,6 @@ if __name__ == '__main__':
     mics_all = dataset_chunk.dome_inds
     assert len(mics_all)/dataset_chunk.NUM_FORWARD == int(len(mics_all)/dataset_chunk.NUM_FORWARD)
     N = int(len(mics_all)/dataset_chunk.NUM_FORWARD)
-    N = 1
     errors = []
     for mic_chunk in range(N):
         print('Testing mics subset: ' + str(mic_chunk+1) + '/' + str(N))

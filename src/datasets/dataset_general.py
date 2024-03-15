@@ -143,11 +143,12 @@ class AudioHMCDataset(AudioDataset):
         info = [info, indices]
         mics = self.mic_locs[indices]
 
-        # the amplitude of speech is quite small
-        if 'conversation' in video or 'rainbow' in video:
-            return hmc_audio*10, dome_audio*10, 0, mics, curr_shift_dist, info
-        else:
-            return hmc_audio, dome_audio, 0, mics, curr_shift_dist, info
+        # # the amplitude of speech is quite small
+        # if 'conversation' in video or 'rainbow' in video:
+        #     return hmc_audio*10, dome_audio*10, 0, mics, curr_shift_dist, info
+        # else:
+        #     return hmc_audio, dome_audio, 0, mics, curr_shift_dist, info
+        return hmc_audio, dome_audio, 0, mics, curr_shift_dist, info
 
 
 @DATASETS.register_module()
