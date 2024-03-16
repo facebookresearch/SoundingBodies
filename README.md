@@ -18,8 +18,7 @@ aws s3 sync --no-sign-request s3://fb-baas-f32eacb9-8abb-11eb-b2b8-4857dd089e15/
 ```
 The dataset takes around 680GB of space. If necessary, in `configs/config_main.py` adjust `data_dir` and `mic_loc_file` to point to your download location. 
 
-NOTE: The published datased does not include speech data from subject7 and has no data from subject8. With respect to data used in the paper,  
-this brings the total capture time from 4.4 hours to 3.6 hours. Below we provide pretrained model and updated evaluation numbers for the published dataset.
+NOTE: The published datased does not include speech data from subject7 and has no data from subject8. With respect to data used in the paper, this brings the total capture time from 4.4 hours to 3.6 hours. Below we provide pretrained model and updated evaluation numbers for the published dataset.
 
 ## Code
 Third-party dependencies: 
