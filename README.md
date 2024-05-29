@@ -1,4 +1,20 @@
-# SoundingBodies
+<div align="center">
+  <h1>SoundingBodies: Modeling 3D Spatial Sound of Humans Using Body Pose and Audio</h1>
+
+  <p style="font-size:1.2em">
+    <a href="https://sheldontsui.github.io/"><strong>Xudong Xu</strong></a> ·
+    <a href=""><strong>Dejan Marković</strong></a> ·
+    <a href=""><strong>Jacob Sandakly</strong></a> ·
+    <a href=""><strong>Todd Keebler</strong></a> ·
+    <a href=""><strong>Steven Krenn</strong></a> ·
+    <a href="https://alexanderrichard.github.io/"><strong>Alexander Richard</strong></a>
+  </p>
+  <p align="center" style="font-size:16px">Advances in Neural Information Processing Systems 36 (NeurIPS 2023)</p>
+
+  <p align="center" style="margin: 2em auto;">
+    <a href='https://arxiv.org/abs/2311.06285'><img src='https://img.shields.io/badge/arXiv-Paper_PDF-red?style=flat&logo=arXiv&logoColor=green' alt='Paper PDF'></a>
+  </p>
+</div>
 
 ## Supplemental Video
 
